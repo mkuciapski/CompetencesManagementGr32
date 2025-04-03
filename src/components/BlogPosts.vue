@@ -1,6 +1,10 @@
+<!-- eslint-disable @typescript-eslint/no-explicit-any -->
 <script setup lang="ts">
 import BlogPost from '@/components/BlogPost.vue'
-defineProps(['course', 'opinions'])
+const props = defineProps(['course', 'opinions'])
+props.opinions.forEach((opinion: any) => {
+  opinion.Author = opinion.Author.toUpperCase()
+})
 </script>
 
 <template>
