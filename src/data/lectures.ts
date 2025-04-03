@@ -48,4 +48,6 @@ Pączków epopeja, która zachwycała
 Profesorów, gdy oni z wielkim zdumieniem
 Znajdowali słodkości z najlepszym nadzieniem.`
 
+const a = 'https://unia-tczew.neocities.org/'
+
 export { lectures }
